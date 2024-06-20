@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Biblioteca LivroMania</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: blueviolet"> 
+      <div class="container-fluid">
+            <a class="navbar-brand" href="#">LivroMania</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="listarLivros.jsp">Listar Livros</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="addLivro.jsp">Cadastrar Livros</a>
+                          </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/capa1.jpg" class="d-block w-100" alt="Slide 1">
+        </div>
+        <div class="carousel-item">
+          <img src="images/capa2.jpg" class="d-block w-100" alt="Slide 2">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="vr"></div>
+
+    <figure class="text-center">
+      <blockquote class="blockquote">
+        <p><b>"Um livro é um sonho que você segura na mão!"</b></p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        <cite title="Source Title">por Neil Gaiman</cite>
+      </figcaption>
+    </figure>
+
+    <div class="vr"></div>
+
+    <div class="card-group">
+      <div class="card">
+        <img src="images/boximagina.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Uma Jornada Pelas Páginas da Imaginação</h5>
+          <p class="card-text">Cada livro é uma porta de entrada para um mundo novo, uma aventura inexplorada ou uma fonte de conhecimento. Convidamos você a embarcar em uma jornada pelas páginas da imaginação, onde as histórias se entrelaçam de maneiras fascinantes.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/autores.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Descubra Autores Notáveis</h5>
+          <p class="card-text">De clássicos que resistiram ao teste do tempo a talentos emergentes que estão moldando o futuro da escrita, cada autor traz uma perspectiva única e cativante. Explore suas obras e mergulhe nas narrativas que transcendem as fronteiras do tempo e do espaço.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/capa_livro.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Compromisso com a Diversidade Literária</h5>
+          <p class="card-text">Desde romances emocionantes e ficção científica fascinante até obras de não ficção que desafiam e inspiram, nossa livraria é um espaço inclusivo para todos os amantes da leitura. Descubra novos mundos, desafie suas ideias e enriqueça sua estante com a variedade de vozes que temos a oferecer.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="vr"></div>
+    <div class="vr"></div>
+
+    <div class="alert alert-info" role="alert">
+      <center><b><i>Biblioteca LivroMania | Todos os direitos reservados.</i></b></center>
+    </div>
+
+    <div class="vr"></div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
